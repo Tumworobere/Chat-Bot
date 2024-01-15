@@ -1,15 +1,137 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Chat-Box</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat- Bot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="mainchat">
+        <header class="chatheader-section">
+          <img src="images/rightarrow.png" alt="" />
+          <img src="images/Woman.png" alt="" />
+          <div class="emptydiv"></div>
+          <h4>Hannah</h4>
+          <p>Active 1hr ago</p>
+        </header>
 
-        <script src="script.js"></script>
-    </body>
+        <section class="innerchat-section">
+          <section id="content"></section>
+          <div class="first-personchat">
+            <img src="images/Light.png" alt="" />
+            <p>👋 Hi there! How can I help?</p>
+          </div>
+          <div class="second-personchat">
+            <p>I’m sorry bot, but you’re wrong</p>
+            <br />
+            <p>Can I talk to someone please?</p>
+          </div>
+        </section>
+        <section>
+          <div class="first2-personchat">
+            <img src="images/Light.png" alt="" />
+            <p>
+              No problem! Let me connect you to <br />
+              a customer support agent.
+            </p>
+          </div>
+          <div class="first3-personchat">
+            <img src="images/Woman.png" alt="" />
+            <p class="first3-personchat1">
+              Hi there! I’m Hannah <br />
+              How can I help you?
+            </p>
+            <p class="ptag">Hannah・Just now</p>
+          </div>
+        </section>
+        <section class="second-personchat2">
+          <div>
+            <p class="second-personchatP">Oh finally a human, wohoo!</p>
+            <p class="ptag2">Just now・Not seen yet</p>
+          </div>
+        </section>
+        <div id="chat-input">
+          <textarea id="inputMessage" placeholder="Type a reply..."></textarea>
+          <div class="send-icon">
+            <img src="images/Smiley.png" alt="" />
+            <button id="btn">Send</button>
+          </div>
+        </div>
+      </div>
+      <section id="content"></section>
+    </main>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="122"
+      height="124"
+      viewBox="0 0 122 124"
+      fill="none"
+    >
+      <g filter="url(#filter0_dd_6870_6503)">
+        <rect x="32" y="30" width="60" height="60" rx="30" fill="#3047EC" />
+        <path
+          d="M62 67.5934L51.4062 56.9997L53 55.4059L53.7969 56.2028L62 64.4528L71 55.4528L72.5938 56.9997L62 67.5934Z"
+          fill="white"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_dd_6870_6503"
+          x="0"
+          y="0"
+          width="124"
+          height="124"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="1" />
+          <feGaussianBlur stdDeviation="3" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_6870_6503"
+          />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="2" />
+          <feGaussianBlur stdDeviation="16" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="effect1_dropShadow_6870_6503"
+            result="effect2_dropShadow_6870_6503"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect2_dropShadow_6870_6503"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+
+    <script src="script.js"></script>
+  </body>
 </html>
